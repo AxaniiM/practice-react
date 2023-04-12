@@ -16,6 +16,6 @@ function Image({ src, name }) {
  }
  
  
- export function Appl() {
+ export function ImageRender() {
    return <ImageList images={arrayForList} />;
  }

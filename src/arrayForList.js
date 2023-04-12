@@ -1,4 +1,9 @@
 import pizzaImg from './images/Pizza-thick.png';
+import burgerImg from './images/Burger.jpg';
+import momoImg from './images/Momo-food.png';
+import Hotdog from './images/Hotdog.png';
+import chickenBurgerImg from './images/Chicken-Burger.png';
+import setFoodImg from './images//Set-of-food.jpeg';
 
 
 export const arrayForList = [
@@ -8,37 +13,37 @@ export const arrayForList = [
         price: 5,
      },
      {  name: "Burger",
-        src: '/images/Burger.jpg', 
+        src: burgerImg, 
         id: 2,
         price: 5,
      },
      {  name: "Momo",
-        src: '/images/Momo-food.png',
+        src: momoImg,
         id: 3,
         price: 5,
      },
      {  name: "Hotdog",
-        src: '/images/Hotdog.png',
+        src: Hotdog,
         id: 4,
         price: 5,
      },
      {  name: "Chicken-Burger",
-        src: '/images/Chicken-Burger.png',
+        src: chickenBurgerImg,
         id: 5,
         price: 5,
      },
      {  name: "Chicken-Pizza",
-        src: '/images/Pizza-thick.png',
+        src: pizzaImg,
         id: 6,
         price: 5,
      },
      {  name: "Dominos",
-        src: '/images/Pizza-thick.png',
+        src: pizzaImg,
         id: 7,
         price: 5,
      },
      {  name: "McDonald Special", 
-        src: '/images/Set-of-food.jpeg',
+        src: setFoodImg,
         id: 8,
         price: 5,
      }

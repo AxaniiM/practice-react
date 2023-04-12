@@ -1,10 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import {Appl} from './ImageRenderFunction';
-
-
-
+import {ImageRender} from './ImageRenderFunction';
 
 
 function Counter() {
@@ -23,7 +19,7 @@ function Counter() {
       <h2>Counter: {count}</h2>
       <button onClick={handleIncrement}>Increment</button>
       <button onClick={handleDecrement}>Decrement</button>
-      <Appl />
+      <ImageRender className="w-10 h-10"/>
     </div>
 
   );
